@@ -1,40 +1,56 @@
 ## Learning C++
 
-Let's learn C++
+This repository is being used for my C++ learning journey.
+
+Let's learn C++ together...
 
 ## Requirements
 
 - Linux/WSL
 - g++ >= 14.2.0 [https://gcc.gnu.org/]
 
-    C++ compiler, support C++ 20.
+    Compiler, support C++ 20.
 
     ```sh
     g++ --version
     ```
-- GDB: The GNU Project Debugger [https://www.sourceware.org/gdb/]
+- gdb >= 16.3 [https://www.sourceware.org/gdb/]
 
-    For debugging.
+    For debugging, support C++ 20.
+
+    ```sh
+    gdb --version
+    ```
 
 - VSCode
 
-    Simply open a CPP file, run, the `.bin` file will be built.
+    With this setup, simply open a CPP file, run, the `.bin` file will be built.
 
 ## Manual Run Example
 
 ### Compile
 
 ```sh
-g++ src/hello-world/hello-world.cpp -o src/hello-world/hello-world.bin
+g++ learn/hello-world/hello-world.cpp -o learn/hello-world/hello-world.bin
 ```
 
 ### Run 
 
 ```sh
-./src/hello-world/hello-world.bin
+./learn/hello-world/hello-world.bin
 ```
 
-## Resource
+## Theoretical Fundamentals
+
+Find out these subjects for better understanding.
+
+- C++ Program Execution Model
+- C++ Core Language
+- C++ Standard Library
+- C++ Standard Template Library (STL)
+
+## Resources
 
 - Using C++ and WSL in VS Code [https://code.visualstudio.com/docs/cpp/config-wsl]
+- Using C++ on Linux in VS Code [https://code.visualstudio.com/docs/cpp/config-wsl]
 
