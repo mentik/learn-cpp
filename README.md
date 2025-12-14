@@ -24,14 +24,14 @@ Let's learn C++ together...
 
 - VSCode
 
-    With this setup, simply open a CPP file, run, the `.bin` file will be built.
+    With this setup, simply open a CPP file, run, the `.bin` file will be built and result on the console.
 
 ## Manual Run Example
 
 ### Compile
 
 ```sh
-g++ learn/hello-world/hello-world.cpp -o learn/hello-world/hello-world.bin
+g++ learn/hello-world/hello-world.cpp -o learn/hello-world/hello-world.cpp
 ```
 
 ### Run 
@@ -48,9 +48,10 @@ Find out these subjects for better understanding.
 - C++ Core Language
 - C++ Standard Library
 - C++ Standard Template Library (STL)
+- Number System (Binary, Octa, Hexadecimal, Decimal)
 
 ## Resources
 
 - Using C++ and WSL in VS Code [https://code.visualstudio.com/docs/cpp/config-wsl]
-- Using C++ on Linux in VS Code [https://code.visualstudio.com/docs/cpp/config-wsl]
-
+- Using C++ on Linux in VS Code [https://code.visualstudio.com/docs/cpp/config-linux]
+- C++ Course I used as reference [https://www.udemy.com/course/the-modern-cpp-20-masterclass/] 
