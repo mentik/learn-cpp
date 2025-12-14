@@ -18,22 +18,20 @@ Let's learn C++
 
 - VSCode
 
-    This setup run the CPP file as a project.
-
-    Simply open the a CPP file, run, the result will be in `build` directory.
+    Simply open a CPP file, run, the `.bin` file will be built.
 
 ## Manual Run Example
 
 ### Compile
 
 ```sh
-g++ src/hello-world/hello-world.cpp -o build/main
+g++ src/hello-world/hello-world.cpp -o src/hello-world/hello-world.bin
 ```
 
 ### Run 
 
 ```sh
-./build/main
+./src/hello-world/hello-world.bin
 ```
 
 ## Resource
